@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import RandomNumberGenerator from './components/RandomNumber'
 
-function App() {
-  return (
-    <div className="App">
-      Hello shravan
-    </div>
-  );
-}
+import './App.css'
 
-export default App;
+const App = () => <RandomNumberGenerator />
+
+export default App
